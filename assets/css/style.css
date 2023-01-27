@@ -36,7 +36,9 @@ body {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li { /*this line is related to line 13 in the html becuase the search buttons fall under
+    header then nav then unordered list then list item 3x needed to change the div here to 
+    make the CSS match up with the logic in the html 1A -DT*/
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,7 +52,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.hero { /*this line is related to line 27 in the html. here they used the CSS to insert the picture
+    as opposed to doing it in the HTML. 1b -DT*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
